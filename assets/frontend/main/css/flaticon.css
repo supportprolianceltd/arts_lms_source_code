@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?b32920c6f37e9a450a43dd1e382eda76") format("truetype"),
+url("./flaticon.woff?b32920c6f37e9a450a43dd1e382eda76") format("woff"),
+url("./flaticon.woff2?b32920c6f37e9a450a43dd1e382eda76") format("woff2"),
+url("./flaticon.eot?b32920c6f37e9a450a43dd1e382eda76#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b32920c6f37e9a450a43dd1e382eda76#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-ethereum:before {
+    content: "\f101";
+}
+.flaticon-litecoin:before {
+    content: "\f102";
+}
+.flaticon-bitcoin:before {
+    content: "\f103";
+}

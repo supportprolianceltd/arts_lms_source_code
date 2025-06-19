@@ -1,0 +1,84 @@
+.notifier_alert-danger{
+	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.notifier_alert-info {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+.notifier_alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.notifier_alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.notifier_alert{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.notifier_top_left{
+	position:fixed;
+	left:1%;
+	top:1%;
+	z-index:3000;
+	}
+.notifier_top_middle{
+	position:fixed;
+	left:50%;
+	top:1%;
+	transform: translateX(-50%);
+	z-index:3000;
+	}
+.notifier_top_right{
+	position:fixed;
+	right:1%;
+	top:1%;
+	z-index:3000;
+	}
+.notifier_middle_right{
+	position:fixed;
+	left:1%;
+	top:50%;
+	transform: translateY(-50%);
+	z-index:3000;
+	}
+.notifier_bottom_left{
+	position:fixed;
+	left:1%;
+	bottom:1%;
+	}
+.notifier_bottom_middle{
+	position:fixed;
+	left:50%;
+	bottom:1%;
+	transform: translateX(-50%);
+	z-index:3000;
+	}
+.notifier_bottom_left{
+	position:fixed;
+	left:1%;
+	bottom:1%;
+	z-index:3000;
+	}
+.notifier_middle_left{
+	position:fixed;
+	left:1%;
+	top:50%;
+	transform: translateY(-50%);
+	z-index:3000;
+	}
+.notifier_middle_middle{
+	position:fixed;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	z-index:3000;
+}

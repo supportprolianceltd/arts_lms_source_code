@@ -1,0 +1,12 @@
+<?php
+$categories_td_file='categories_td_file';
+if($category_id){
+    $category=$this->crud_model->get_category_details_by_id($category_id)->row_array();
+    $categories_lists=$this->crud_model->get_sub_categories($category_id);
+    $category_thumbnail=$category['thumbnail']?"$system_base_url/uploads/thumbnails/category_thumbnails/{$category['thumbnail']}":"$system_assets_base_url/img/teaching-and-learning-ABT.png";
+    $top_courses=(array)$this->crud_model->get_category_wise_courses($category['id'])->result_array();
+}
+require(__DIR__.'/categories_list.php');
+require(__DIR__.'/course_list_grid.php');
+require_once(__DIR__.'/views/category.php');
+?>
