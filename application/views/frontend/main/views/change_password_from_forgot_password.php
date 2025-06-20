@@ -18,7 +18,7 @@ echo <<<HTML
             </span>
           </div>
           <div class="Reg_Input d-none">
-            <input type="password" id="passwordField2" name='confirm_password' placeholder="Confirm Password*" required>
+            <input type="password" id="passwordField2" name='confirm_password' placeholder="Confirm Password*" require>
           </div>
             <div class="Reg_Input">
              <input type="submit" name="" value="Log In" class="primary-background-color">

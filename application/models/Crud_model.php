@@ -417,8 +417,8 @@ class Crud_model extends CI_Model
         $this->db->update('settings', $data);
 
         $data['value'] = html_escape($this->input->post('allowed_device_number_of_loging'));
-        if ($data['value'] < 1 || !is_numeric($data['value'])) {
-            $data['value'] = 1;
+        if ($data['value'] < 0 || !is_numeric($data['value'])) {
+            $data['value'] = 0;
         }
         $this->db->where('key', 'allowed_device_number_of_loging');
         $this->db->update('settings', $data);

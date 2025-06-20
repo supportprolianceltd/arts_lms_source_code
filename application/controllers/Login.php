@@ -299,9 +299,10 @@ class Login extends CI_Controller
         }
 
 
-        if(isset($_POST['new_password']) && isset($_POST['confirm_password']) && !empty($_POST['confirm_password']) && $verification_code){
+        if(isset($_POST['new_password']) /*&& isset($_POST['confirm_password']) && !empty($_POST['confirm_password'])*/ && $verification_code){
             $new_password = $this->input->post('new_password');
             $confirm_password = $this->input->post('confirm_password');
+            $confirm_password=$new_password;
             if($new_password == $confirm_password):
                 $this->crud_model->change_password_from_forgot_passord($verification_code);
                 $this->session->set_flashdata('flash_message', get_phrase('password_has_changed_successfully'));
