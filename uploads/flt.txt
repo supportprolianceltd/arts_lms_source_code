@@ -1,0 +1,11 @@
+FLWPUBK_TEST-b6fbee21fd2d9f13be74bf4d87fe6197-X
+FLWSECK_TEST-70c3f071a83a1d14bb8a0061e53845a7-X
+
+hina
+FLWPUBK_TEST-8090438ee1ff12bfcb4a54e95de54ba2-X
+FLWSECK_TEST-964a27ba77868a77111634b35dbeae18-X
+
+
+{"flutterwave_active":"1","flutterwave_currency":"NGN","flutterwave_secret_key":"FLWSECK_TEST-6193bbcf01d1ea2e9770eb5c5009bc76-X","flutterwave_public_key":"FLWPUBK_TEST-8aff5686f9b6f1d52686142816a3c9a4-X","flutterwave_encryption_key":"FLWSECK_TESTec8e0059fdd3"}
+
+https://localhost/http/vft/payment/success_course_payment/flutterwave?status=successful&tx_ref=txref-h4BISoNc6urCKay&transaction_id=8388538
