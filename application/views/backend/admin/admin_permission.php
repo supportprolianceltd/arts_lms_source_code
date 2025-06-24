@@ -5,7 +5,7 @@
     'category', 'course', 'user', 'instructor', 'student', 'enrolment', 'revenue', 'messaging', 'blog', 'addon', 'theme', 'settings', 'coupon', 'academy_cloud', 'newsletter', 'contact'
 ];*/
 $modules = [
-    'category', 'course', 'user', 'student', 'enrolment', 'revenue','contact', 'settings','iqa','eqa','audit','messaging','admin'
+    'category', 'course', 'user', 'student', 'enrolment', 'revenue','contact', 'settings','iqa','eqa','audit','messaging','admin','schedule'
 ];
 
 ?>
